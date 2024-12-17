@@ -7,6 +7,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0015-3sum](https://github.com/rishi-2811/dsa/tree/master/0015-3sum) |
+| [0056-merge-intervals](https://github.com/rishi-2811/dsa/tree/master/0056-merge-intervals) |
 | [0229-majority-element-ii](https://github.com/rishi-2811/dsa/tree/master/0229-majority-element-ii) |
 | [0560-subarray-sum-equals-k](https://github.com/rishi-2811/dsa/tree/master/0560-subarray-sum-equals-k) |
 ## Hash Table
@@ -22,6 +23,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0015-3sum](https://github.com/rishi-2811/dsa/tree/master/0015-3sum) |
+| [0056-merge-intervals](https://github.com/rishi-2811/dsa/tree/master/0056-merge-intervals) |
 | [0229-majority-element-ii](https://github.com/rishi-2811/dsa/tree/master/0229-majority-element-ii) |
 ## Counting
 |  |
