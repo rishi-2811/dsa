@@ -45,10 +45,7 @@ class Solution {
                 low=mid+1;
               }
         }
-        System.out.println(l1);
-        System.out.println(l2);
-        System.out.println(r1);
-        System.out.println(r2);
+        
         }
         return (m+n)%2==0?(Math.max(l1,l2)+Math.min(r1,r2))/2.0:(double) Math.max(l1,l2);
     }
