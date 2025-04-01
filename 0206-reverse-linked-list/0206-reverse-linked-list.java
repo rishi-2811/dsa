@@ -16,26 +16,18 @@ class Solution {
         if(head.next==null){
             return head;
         }
-        ListNode prev=null;
-        ListNode temp=head;
-        ListNode front=head.next;
-        while(temp!=null){
-            if(prev==null){
-                prev=temp;
-                temp=temp.next;
-                front=front.next;
-            }
-            
-            else{
-                temp.next=prev;
-               
-                prev=temp;
-                
-                temp=front;
-                front=front==null?null:front.next;
-            }
+        
+        
+        return reverse(head,null);
+    }
+    public ListNode reverse(ListNode temp,ListNode prev){
+        if(temp==null){
+            return prev;
         }
-        head.next=null;
-        return prev;
+        else{
+            ListNode front=temp.next;
+            temp.next=prev;
+            return reverse(front,temp);
+        }
     }
 }
