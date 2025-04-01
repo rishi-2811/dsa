@@ -17,19 +17,25 @@ class Solution {
             return null;
         }
         ListNode slow=head;
-        ListNode slowprev=null;
+       
         ListNode fast=head;
        
         
        
          while(fast!=null && fast.next!=null){
-                slowprev=slow;
+                
                 slow=slow.next;
                 fast=fast.next.next;
                 
                 
         }
-        slowprev.next=slow.next;
+        if(slow.next==null){
+            head.next=null;
+        }
+        else{
+             slow.val=slow.next.val;
+        slow.next=slow.next.next;
+        }
         return head;
     }
 }
