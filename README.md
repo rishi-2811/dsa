@@ -82,4 +82,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0004-median-of-two-sorted-arrays](https://github.com/rishi-2811/dsa/tree/master/0004-median-of-two-sorted-arrays) |
+## Linked List
+|  |
+| ------- |
+| [0237-delete-node-in-a-linked-list](https://github.com/rishi-2811/dsa/tree/master/0237-delete-node-in-a-linked-list) |
 <!---LeetCode Topics End-->
