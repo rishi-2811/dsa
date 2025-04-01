@@ -42,10 +42,9 @@ class Solution {
             m2=slow.next;
         }
         
-        System.out.println(m1.val);
-        System.out.println(m2.val);
+        
         ListNode end=reverseList(m2);
-        System.out.println(end.val);
+      
         ListNode temp1=head;
         ListNode temp2=end;
         while(temp1!=null && temp2!=null){
