@@ -18,9 +18,9 @@ class Solution {
         }
         ListNode slow=head;
         ListNode fast=head;
-        ListNode m1=null;
+       
         ListNode m2=null;
-        ListNode temp=head;
+       
         
         while(slow.next!=null){
             if(fast.next==null){
@@ -37,7 +37,7 @@ class Solution {
                 
                 
         }
-         m1=slow;
+        
         
         
         
