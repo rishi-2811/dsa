@@ -21,26 +21,24 @@ class Solution {
         ListNode m1=null;
         ListNode m2=null;
         ListNode temp=head;
-        int count=0;
-        while(temp!=null){
-            temp=temp.next;
-            count++;
-        }
-        while(fast!=null && fast.next!=null){
-            
+        
+        while(slow.next!=null){
+            if(fast.next==null){
+                m2=slow;
+                break;
+            }
+            if(fast.next.next==null){
+                m2=slow.next;
+                break;
+            }
             
                 slow=slow.next;
                 fast=fast.next.next;
                 
+                
         }
          m1=slow;
-        if(count%2==0){
-           
-            m2=slow;
-        }
-        else{
-            m2=slow.next;
-        }
+        
         
         
         ListNode end=reverseList(m2);
