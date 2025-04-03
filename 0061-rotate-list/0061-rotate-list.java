@@ -21,7 +21,7 @@ class Solution {
             temp=temp.next;
         }
         k=k%length;
-        System.out.println(k);
+        
         if(k==0){
             return head;
         }
