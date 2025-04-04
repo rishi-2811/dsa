@@ -31,7 +31,7 @@ class Solution {
                 slow=slow.next;
                 fast=fast.next.next;             
         }
-        System.out.println(slowprev.val);
+       
         return slowprev;
     }
     public ListNode merge(ListNode lefthead,ListNode righthead){
