@@ -6,11 +6,12 @@ class Solution {
         return answer;
     }
     public static void getAnswer(List<List<Integer>> answer,List<Integer> s,int[] nums,int i,int sum,int k){
-    
+        if(sum==k){
+            answer.add(s);
+            return ;
+        }
         if(i==nums.length){
-            if(sum==k){
-                answer.add(s);
-            }
+            return ;
         }
         else{
             List<Integer> a=new ArrayList<>(s);
