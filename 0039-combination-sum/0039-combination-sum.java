@@ -15,7 +15,7 @@ class Solution {
         else{
             List<Integer> a=new ArrayList<>(s);
             getAnswer(answer,a,nums,i+1,sum,k);
-            while(sum<k){
+            while(sum<k && sum+nums[i]<=k){
                 sum+=nums[i];
                 a.add(nums[i]);
                 getAnswer(answer,a,nums,i+1,sum,k);
