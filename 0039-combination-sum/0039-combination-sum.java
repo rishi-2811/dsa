@@ -7,10 +7,10 @@ class Solution {
     }
     public static void getAnswer(List<List<Integer>> answer,List<Integer> s,int[] nums,int i,int sum,int k){
         if(sum==k){
-            answer.add(s);
-            return ;
+                answer.add(s);
+                return ;
         }
-        if(i==nums.length){
+        else if(i==nums.length){
             return ;
         }
         else{
