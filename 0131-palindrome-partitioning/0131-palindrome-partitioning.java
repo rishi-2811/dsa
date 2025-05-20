@@ -1,0 +1,31 @@
+class Solution {
+    public List<List<String>> partition(String s) {
+        
+        List<String> a=new ArrayList<>();
+        List<List<String>> answer=new ArrayList<>();
+        getAnswer(answer,a,s,0,1);
+        return answer;
+    }
+    public static void getAnswer(List<List<String>> answer,List<String> a,String s,int l,int r){
+        if(r>s.length()||l>=r){
+            answer.add(new ArrayList<>(a));
+            return;
+        }
+        else{
+            String b=r>=s.length()?s.substring(l):s.substring(l,r);
+            List<String> c=new ArrayList<>(a);
+            if(isPalindrome(b)){
+                a.add(b);
+                getAnswer(answer,a,s,r,r+1);
+            }
+
+            if(r!=s.length()){
+                getAnswer(answer,c,s,l,r+1);
+            }
+        }
+    }
+    public static boolean isPalindrome(String str) {
+        String reversed = new StringBuilder(str).reverse().toString();
+        return str.equals(reversed);
+    }
+}
