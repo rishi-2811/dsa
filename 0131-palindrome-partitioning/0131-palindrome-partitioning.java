@@ -24,8 +24,11 @@ class Solution {
             }
         }
     }
-    public static boolean isPalindrome(String str) {
-        String reversed = new StringBuilder(str).reverse().toString();
-        return str.equals(reversed);
+    public static boolean isPalindrome(String s){
+        int l=0,r=s.length()-1;
+        while(l<r){
+            if(s.charAt(l++)!=s.charAt(r--))return false;
+        }
+        return true;
     }
 }
