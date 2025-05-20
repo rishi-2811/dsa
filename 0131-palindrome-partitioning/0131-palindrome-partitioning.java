@@ -13,14 +13,15 @@ class Solution {
         }
         else{
             String b=r>=s.length()?s.substring(l):s.substring(l,r);
-            List<String> c=new ArrayList<>(a);
+            
             if(isPalindrome(b)){
                 a.add(b);
                 getAnswer(answer,a,s,r,r+1);
+                a.remove(a.size() - 1);
             }
 
             if(r!=s.length()){
-                getAnswer(answer,c,s,l,r+1);
+                getAnswer(answer,a,s,l,r+1);
             }
         }
     }
