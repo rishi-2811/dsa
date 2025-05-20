@@ -95,6 +95,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0022-generate-parentheses](https://github.com/rishi-2811/dsa/tree/master/0022-generate-parentheses) |
+| [0131-palindrome-partitioning](https://github.com/rishi-2811/dsa/tree/master/0131-palindrome-partitioning) |
 | [0410-split-array-largest-sum](https://github.com/rishi-2811/dsa/tree/master/0410-split-array-largest-sum) |
 ## Greedy
 |  |
@@ -170,6 +171,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/rishi-2811/dsa/tree/master/0017-letter-combinations-of-a-phone-number) |
 | [0022-generate-parentheses](https://github.com/rishi-2811/dsa/tree/master/0022-generate-parentheses) |
+| [0131-palindrome-partitioning](https://github.com/rishi-2811/dsa/tree/master/0131-palindrome-partitioning) |
 ## Backtracking
 |  |
 | ------- |
@@ -179,5 +181,6 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0040-combination-sum-ii](https://github.com/rishi-2811/dsa/tree/master/0040-combination-sum-ii) |
 | [0078-subsets](https://github.com/rishi-2811/dsa/tree/master/0078-subsets) |
 | [0090-subsets-ii](https://github.com/rishi-2811/dsa/tree/master/0090-subsets-ii) |
+| [0131-palindrome-partitioning](https://github.com/rishi-2811/dsa/tree/master/0131-palindrome-partitioning) |
 | [0216-combination-sum-iii](https://github.com/rishi-2811/dsa/tree/master/0216-combination-sum-iii) |
 <!---LeetCode Topics End-->
