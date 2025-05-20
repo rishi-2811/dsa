@@ -7,7 +7,7 @@ class Solution {
         return answer;
     }
     public static void getAnswer(List<List<String>> answer,List<String> a,String s,int l,int r){
-        if(r>s.length()||l>=r){
+        if(l==s.length()){
             answer.add(new ArrayList<>(a));
             return;
         }
