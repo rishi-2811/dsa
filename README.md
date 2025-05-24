@@ -137,6 +137,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Stack
 |  |
 | ------- |
+| [0225-implement-stack-using-queues](https://github.com/rishi-2811/dsa/tree/master/0225-implement-stack-using-queues) |
 | [0234-palindrome-linked-list](https://github.com/rishi-2811/dsa/tree/master/0234-palindrome-linked-list) |
 ## Math
 |  |
@@ -183,4 +184,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0090-subsets-ii](https://github.com/rishi-2811/dsa/tree/master/0090-subsets-ii) |
 | [0131-palindrome-partitioning](https://github.com/rishi-2811/dsa/tree/master/0131-palindrome-partitioning) |
 | [0216-combination-sum-iii](https://github.com/rishi-2811/dsa/tree/master/0216-combination-sum-iii) |
+## Design
+|  |
+| ------- |
+| [0225-implement-stack-using-queues](https://github.com/rishi-2811/dsa/tree/master/0225-implement-stack-using-queues) |
+## Queue
+|  |
+| ------- |
+| [0225-implement-stack-using-queues](https://github.com/rishi-2811/dsa/tree/master/0225-implement-stack-using-queues) |
 <!---LeetCode Topics End-->
