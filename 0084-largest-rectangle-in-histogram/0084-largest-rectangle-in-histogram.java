@@ -1,45 +1,43 @@
 class Solution {
     public int largestRectangleArea(int[] nums2) {
-        
-        Map<Integer, Integer> mp = new HashMap<>();
+        int n = nums2.length;
+        int[] mp = new int[n];
         Stack<Integer> s = new Stack<>();
 
-        for (int i = nums2.length - 1; i >= 0; i--) {
+        for (int i = n - 1; i >= 0; i--) {
             while (!s.isEmpty() && nums2[i] < nums2[s.peek()]) {
                 s.pop();
             }
-
             if (s.isEmpty()) {
-                mp.put(i, nums2.length);
+                mp[i] = n;
             } else {
-                mp.put(i, s.peek());
+                mp[i] = s.peek();
             }
             s.push(i);
         }
 
-        Map<Integer, Integer> m = new HashMap<>();
+        int[] m = new int[n];
         Stack<Integer> s1 = new Stack<>();
 
-        for (int i = 0; i < nums2.length; i++) {
+        for (int i = 0; i < n; i++) {
             while (!s1.isEmpty() && nums2[i] <= nums2[s1.peek()]) {
                 s1.pop();
             }
-
             if (s1.isEmpty()) {
-                m.put(i, -1);
+                m[i] = -1;
             } else {
-                m.put(i, s1.peek());
+                m[i] = s1.peek();
             }
             s1.push(i);
         }
 
         int max = 0;
-        for (int a = 0; a < nums2.length; a++) {
-            int l = m.get(a);
-            int r = mp.get(a);
+        for (int a = 0; a < n; a++) {
+            int l = m[a];
+            int r = mp[a];
             int count = r - l - 1;
-            int contrib = (count * nums2[a]) ;
-            max=Math.max(max,contrib);
+            int contrib = count * nums2[a];
+            max = Math.max(max, contrib);
         }
 
         return max;
