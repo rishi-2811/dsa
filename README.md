@@ -39,6 +39,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1605-minimum-number-of-days-to-make-m-bouquets](https://github.com/rishi-2811/dsa/tree/master/1605-minimum-number-of-days-to-make-m-bouquets) |
 | [1646-kth-missing-positive-number](https://github.com/rishi-2811/dsa/tree/master/1646-kth-missing-positive-number) |
 | [2227-sum-of-subarray-ranges](https://github.com/rishi-2811/dsa/tree/master/2227-sum-of-subarray-ranges) |
+| [3531-count-covered-buildings](https://github.com/rishi-2811/dsa/tree/master/3531-count-covered-buildings) |
 ## Hash Table
 |  |
 | ------- |
@@ -50,6 +51,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0229-majority-element-ii](https://github.com/rishi-2811/dsa/tree/master/0229-majority-element-ii) |
 | [0496-next-greater-element-i](https://github.com/rishi-2811/dsa/tree/master/0496-next-greater-element-i) |
 | [0560-subarray-sum-equals-k](https://github.com/rishi-2811/dsa/tree/master/0560-subarray-sum-equals-k) |
+| [3531-count-covered-buildings](https://github.com/rishi-2811/dsa/tree/master/3531-count-covered-buildings) |
 ## Prefix Sum
 |  |
 | ------- |
@@ -63,6 +65,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0088-merge-sorted-array](https://github.com/rishi-2811/dsa/tree/master/0088-merge-sorted-array) |
 | [0148-sort-list](https://github.com/rishi-2811/dsa/tree/master/0148-sort-list) |
 | [0229-majority-element-ii](https://github.com/rishi-2811/dsa/tree/master/0229-majority-element-ii) |
+| [3531-count-covered-buildings](https://github.com/rishi-2811/dsa/tree/master/3531-count-covered-buildings) |
 ## Counting
 |  |
 | ------- |
