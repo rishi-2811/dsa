@@ -38,6 +38,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1408-find-the-smallest-divisor-given-a-threshold](https://github.com/rishi-2811/dsa/tree/master/1408-find-the-smallest-divisor-given-a-threshold) |
 | [1605-minimum-number-of-days-to-make-m-bouquets](https://github.com/rishi-2811/dsa/tree/master/1605-minimum-number-of-days-to-make-m-bouquets) |
 | [1646-kth-missing-positive-number](https://github.com/rishi-2811/dsa/tree/master/1646-kth-missing-positive-number) |
+| [2110-number-of-smooth-descent-periods-of-a-stock](https://github.com/rishi-2811/dsa/tree/master/2110-number-of-smooth-descent-periods-of-a-stock) |
 | [2227-sum-of-subarray-ranges](https://github.com/rishi-2811/dsa/tree/master/2227-sum-of-subarray-ranges) |
 | [3531-count-covered-buildings](https://github.com/rishi-2811/dsa/tree/master/3531-count-covered-buildings) |
 ## Hash Table
@@ -111,6 +112,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0131-palindrome-partitioning](https://github.com/rishi-2811/dsa/tree/master/0131-palindrome-partitioning) |
 | [0410-split-array-largest-sum](https://github.com/rishi-2811/dsa/tree/master/0410-split-array-largest-sum) |
 | [0943-sum-of-subarray-minimums](https://github.com/rishi-2811/dsa/tree/master/0943-sum-of-subarray-minimums) |
+| [2110-number-of-smooth-descent-periods-of-a-stock](https://github.com/rishi-2811/dsa/tree/master/2110-number-of-smooth-descent-periods-of-a-stock) |
 ## Greedy
 |  |
 | ------- |
@@ -174,6 +176,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0204-count-primes](https://github.com/rishi-2811/dsa/tree/master/0204-count-primes) |
 | [0231-power-of-two](https://github.com/rishi-2811/dsa/tree/master/0231-power-of-two) |
 | [2050-count-good-numbers](https://github.com/rishi-2811/dsa/tree/master/2050-count-good-numbers) |
+| [2110-number-of-smooth-descent-periods-of-a-stock](https://github.com/rishi-2811/dsa/tree/master/2110-number-of-smooth-descent-periods-of-a-stock) |
 ## Bit Manipulation
 |  |
 | ------- |
